@@ -1,0 +1,70 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=ad8766954b5b47869ab08db640bb84b9}{%
+           family={Jaksch},
+           familyi={J\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Stockholm, Sweden}%
+      }
+      \strng{namehash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{fullhash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{fullhashraw}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{bibnamehash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{authorbibnamehash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{authornamehash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{authorfullhash}{ad8766954b5b47869ab08db640bb84b9}
+      \strng{authorfullhashraw}{ad8766954b5b47869ab08db640bb84b9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper contains a derivation of the adjoint equations for transient heat conduction and describes how to include the adjoint solution in a nonlinear conjugate gradient method. The adjoint equations are useful for optimization problems where a scalar valued target function is optimized with respect to a large number of design variables. In this paper the target function is a least squares fit between calculated and measured transient metal temperatures. The design variables consist of heat transfer coefficients on a set of mesh facets for a finite element mesh. Contrary to intuition the sensitivity of the target function with respect to the different design variables can be evaluated by just two transient solutions; the direct problem and the adjoint problem, with roughly similar cost. If a brute force approach is used the transient problem has to be solved for each individual design variable. Since a typical mesh contains thousands of facets the speedup of the adjoint approach is enormous.}
+      \field{booktitle}{European {{Conference}} on {{Turbomachinery Fluid Dynamics}} and hermodynamics}
+      \field{langid}{english}
+      \field{title}{Implementation of an adjoint thermal solver for inverse problems}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.29008/ETC2017-336
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\6YHGTYIT\Jaksch - 2017 - Implementation of an adjoint thermal solver for inverse problems.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.euroturbo.eu/publications/proceedings-papers/ETC2017-336/
+      \endverb
+      \verb{url}
+      \verb http://www.euroturbo.eu/publications/proceedings-papers/ETC2017-336/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
