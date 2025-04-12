@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (MiKTeX 25.3) (format=lualatex 2025.4.6)  7 APR 2025 15:06
+This is LuaHBTeX, Version 1.21.0 (MiKTeX 25.3) (format=lualatex 2025.4.6)  12 APR 2025 09:38
  restricted system commands enabled.
 **HenningExpert.tex
 (./HenningExpert.tex
@@ -78,14 +78,14 @@ Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             for `toc' on input line 135.
 
 
-Package scrartcl Warning: You've used deprecated option `8pt'.
+Package scrartcl Warning: You've used deprecated option `7pt'.
 (scrartcl)                Usage of this option indicates an old document
 (scrartcl)                and changes compatibility level using
-(scrartcl)                `fontsize=8pt,version=first,
+(scrartcl)                `fontsize=7pt,version=first,
 (scrartcl)                enabledeprecatedfontcommands' that may result
 (scrartcl)                in further warnings.
 (scrartcl)                If you don't want this, you should simply
-(scrartcl)                replace option `8pt' by `fontsize=8pt'.
+(scrartcl)                replace option `7pt' by `fontsize=7pt'.
 
 Class scrartcl Info: Switching compatibility level to `first'.
 
@@ -111,13 +111,9 @@ Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
 (scrartcl)              longer. Therefore usage of this class option also
 (scrartcl)              is not recommended.
 
-Class scrartcl Info: File `size8.clo' used to setup font sizes on input line 24
-66.
-("C:/Program Files/MiKTeX/tex/latex/extsizes/size8.clo"
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/Users/paulschm/AppData/Loca
-l/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
-("C:/Program Files/MiKTeX/tex/latex/koma-script/typearea.sty"
+l/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz ("C:/Program Files/
+MiKTeX/tex/latex/koma-script/typearea.sty"
 Package: typearea 2024/10/24 v3.43 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count194
@@ -133,7 +129,7 @@ Package typearea Info: You've used standard option `landscape'.
 \footheight=\skip54
 
 
-Package typearea Warning: DIV for 8.0pt and used papersize
+Package typearea Warning: DIV for 7.0pt and used papersize
 (typearea)                not defined!
 (typearea)                Using DIV=calc.
 
@@ -142,7 +138,7 @@ Package typearea Info: DIV calculation for classic typearea. on input line 1802
 .
 
 Package typearea Info: Maybe no optimal type area settings!
-(typearea)             The detected line width is about 24%
+(typearea)             The detected line width is about 19%
 (typearea)             smaller than the heuristically estimated maximum
 (typearea)             limit of typographical good line width.
 (typearea)             You could e.g. increase DIV
@@ -159,17 +155,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 845.04694pt
 (typearea)              \textwidth      = 211.26173pt
-(typearea)              DIV departure   = 24%
+(typearea)              DIV departure   = 19%
 (typearea)              \evensidemargin = 244.6226pt
 (typearea)              \oddsidemargin  = 244.6226pt
 (typearea)             \paperheight     = 597.50793pt
-(typearea)              \textheight     = 150.5pt
-(typearea)              \topmargin      = 50.982pt
-(typearea)              \headheight     = 11.875pt
-(typearea)              \headsep        = 14.25pt
-(typearea)              \topskip        = 8.0pt
-(typearea)              \footskip       = 33.25pt
-(typearea)              \baselineskip   = 9.5pt
+(typearea)              \textheight     = 149.79964pt
+(typearea)              \topmargin      = 54.00706pt
+(typearea)              \headheight     = 10.49997pt
+(typearea)              \headsep        = 12.59996pt
+(typearea)              \topskip        = 7.0pt
+(typearea)              \footskip       = 29.39992pt
+(typearea)              \baselineskip   = 8.39998pt
 (typearea)              on input line 1802.
 )
 \c@part=\count195
@@ -654,31 +650,31 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 (./HenningExpert.aux)
 \openout1 = HenningExpert.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-Package scrbase Info: activating english \abstractname on input line 10.
-Package scrbase Info: activating english \partname on input line 10.
-Package scrbase Info: activating english \figurename on input line 10.
-Package scrbase Info: activating english \tablename on input line 10.
-Package scrbase Info: activating english \contentsname on input line 10.
-Package scrbase Info: activating english \listfigurename on input line 10.
-Package scrbase Info: activating english \listtablename on input line 10.
-Package scrbase Info: activating english \refname on input line 10.
-Package scrbase Info: activating english \indexname on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+Package scrbase Info: activating english \abstractname on input line 26.
+Package scrbase Info: activating english \partname on input line 26.
+Package scrbase Info: activating english \figurename on input line 26.
+Package scrbase Info: activating english \tablename on input line 26.
+Package scrbase Info: activating english \contentsname on input line 26.
+Package scrbase Info: activating english \listfigurename on input line 26.
+Package scrbase Info: activating english \listtablename on input line 26.
+Package scrbase Info: activating english \refname on input line 26.
+Package scrbase Info: activating english \indexname on input line 26.
  ("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
@@ -727,23 +723,23 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(56.9055pt, 759.68869pt, 28.45274pt)
+* h-part:(L,W,R)=(28.45274pt, 788.14145pt, 28.45274pt)
 * v-part:(T,H,B)=(28.45274pt, 540.60245pt, 28.45274pt)
 * \paperwidth=845.04694pt
 * \paperheight=597.50793pt
-* \textwidth=759.68869pt
+* \textwidth=788.14145pt
 * \textheight=540.60245pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-69.94225pt
-* \headheight=11.875pt
-* \headsep=14.25pt
-* \topskip=8.0pt
-* \footskip=33.25pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-66.91718pt
+* \headheight=10.49997pt
+* \headsep=12.59996pt
+* \topskip=7.0pt
+* \footskip=29.39992pt
 * \marginparwidth=211.26173pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=6.29996pt plus 2.33308pt minus 4.20004pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -768,20 +764,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'HenningExpert.bbl' found.
 
 (./HenningExpert.bbl)
-Package biblatex Info: Reference section=0 on input line 10.
-Package biblatex Info: Reference segment=0 on input line 10.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
  ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Missing character: There is no ∀ (U+2200) in font cmr8!
+Missing character: There is no ∀ (U+2200) in font cmr7!
 
 
 [1
@@ -809,34 +805,32 @@ Package logreq Info: Writing requests to 'HenningExpert.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14837 strings out of 475506
+ 14830 strings out of 475506
  100000,1373583 words of node,token memory allocated
- 1099 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 130 attribute, 74 glue_spe
-c, 130 attribute_list, 1 write nodes
-   avail lists: 2:942,3:214,4:23,5:788,6:32,7:7030,8:149,9:2056,10:12,11:272
- 37636 multiletter control sequences out of 65536+600000
- 45 fonts using 3413519 bytes
+ 1119 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 135 attribute, 74 glue_spe
+c, 135 attribute_list, 1 write nodes
+   avail lists: 1:1,2:1073,3:233,4:19,5:983,6:34,7:7658,8:164,9:2098,10:10,11:25
+8
+ 37634 multiletter control sequences out of 65536+600000
+ 37 fonts using 2777959 bytes
  108i,23n,101p,10953b,1305s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/program files/miktex/fonts/opentype/public/lm/lmmono8-regular.otf><c:/progra
 m files/miktex/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/program fi
 les/miktex/fonts/opentype/public/lm/lmroman7-italic.otf><c:/program files/miktex
-/fonts/opentype/public/lm/lmroman8-italic.otf><c:/program files/miktex/fonts/ope
-ntype/public/lm/lmroman8-bold.otf><c:/program files/miktex/fonts/opentype/public
-/lm/lmroman8-regular.otf><c:/program files/miktex/fonts/opentype/public/lm/lmrom
-an6-regular.otf><//?/c:/program files/miktex/fonts/opentype/public/lm/lmsans10-b
-old.otf><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb>
-Output written on HenningExpert.pdf (7 pages, 192674 bytes).
+/fonts/opentype/public/lm/lmroman7-bold.otf><//?/c:/program files/miktex/fonts/o
+pentype/public/lm/lmroman7-regular.otf><c:/program files/miktex/fonts/opentype/p
+ublic/lm/lmroman5-regular.otf><//?/c:/program files/miktex/fonts/opentype/public
+/lm/lmsans10-bold.otf><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmext
+ra/cmex7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on HenningExpert.pdf (7 pages, 184875 bytes).
 
-PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
