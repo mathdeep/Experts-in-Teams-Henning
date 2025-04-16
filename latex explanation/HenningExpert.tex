@@ -24,19 +24,19 @@
 \makeatother
 
 \begin{document}
-	\section{version 1}
+	\section{version 1: Linear $pQ$ with $\gamma$ on $T$}
 	\begin{align*}
-		&\min E(Q,T)=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx \\
+		&\min E(Q,T)=\frac12\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx \\
 		&\begin{cases}\begin{aligned}
 			\rho c\dot T(x,t)&=\nabla\cdot\left(k(x)\nabla T(x,t)\right)+Q(x,t) && \text{in}\ \Omega\times(0,t_F) \\
 			-k(x)\partial_\nu T(x,t)&=h(x)\left(T(x,t)-T_\text{out}(x,t)\right) && \text{on}\ \partial\Omega\times[0,t_F]\\
 			T(x,0)&=T_\text{ini}(x) &&
 		\end{aligned}\end{cases}\tag{SE}\\
 		& Q\in U_\text{ad}=\{Q\in L^2(\Omega\times(0,t_F))\,|\,0\leq Q(x,t)\leq Q_\text{max}(x)\ \text{a.e.}\}\\
-		&\text{optional}:\ T(x,t_F)\geq T_\text{fin}(x) (\text{optional if second part of E should be strict})
+		%&\text{optional}:\ T(x,t_F)\geq T_\text{fin}(x) (\text{optional if second part of E should be strict})
 	\end{align*}
 	where
-	$T(x,t)$ temperature in K (Henning: I will use °C, but written K is better), $Q(x,t)$ heating output in $\frac W {m^3}$, $p(t)$ price, $\rho$ density in $\frac{kg}{m^3}$, $c$ heat capacity in $\frac{J}{kg\cdot K}$, $k(x)$ heat transfer coefficient in $\frac W{m\cdot K}$, $h(x)$ convective heat transfer coefficient in $\frac W{m^2K}$, $t_1$ morning start time
+	$T(x,t)$ temperature in K (Henning: I will use °C, but written K is better), $Q(x,t)$ heating output in $\frac W {m^3}$, $p(t)$ price, $\rho$ density in $\frac{kg}{m^3}$, $c$ heat capacity in $\frac{J}{kg\cdot K}$, $k(x)$ heat transfer coefficient in $\frac W{m\cdot K}$, $h(x)$ convective heat transfer coefficient in $\frac W{m^2K}$, $0$ morning start time
 
 	Remember that $\partial_\nu T$ is the outer normal derivative with respect to $x$ and any initial data (or end data) would have to satisfy the PDE.
 
@@ -63,21 +63,29 @@
 	\paragraph{Lagrangian + AE}
 	From the optimisation functional and the (WSE) we get the Lagrangian as
 	\begin{align*}
-		L(T,Q,W)=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)+k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
+		L(T,Q,W)=\frac12\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)+k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
 	\end{align*}
-	which gives us the weak formulation of the adjoint (AE) as (notice that the second term contains $\dot\psi$ which in the (SWF) would be zero and thus needs to be solved differently: in that case we are actually only looking for the derivative of the $x$ dendent $T$, so that the derivative $\partial_{T(x)}T(x,t)$ does not give 1 but a time dependent function)
+	which gives us the weak formulation of the adjoint (AE) as (notice that the second term contains $\dot\psi$ which in the (WSE) would be zero and thus needs to be solved differently: in that case we are actually only looking for the derivative of the $x$ dependent $T$, so that the derivative $\partial_{T(x)}T(x,t)$ does not give 1 but a time dependent function)
 	\begin{align*}
 		L_T(T,Q,W)\psi=\gamma\int\limits_\Omega \left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t_F)\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot \psi(x,t)W(x,t)+k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt
 	\end{align*}
-	By Green for any $t\in(0,t_F)$ it is
-	\begin{align*}
-		\int\limits_\Omega k(x)\nabla\psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx=-\int\limits_\Omega \nabla\cdot\left(k(x)\nabla W(x,t)\right)\psi(x,t)\,\mathrm dx+\int\limits_{\partial\Omega} k(y)\partial_\nu W(y,t)\psi(y,t)\,\mathrm dy
-	\end{align*}
-	and from Green for the $t$ variable (integration by parts) we get
+	By Green for the $t$ variable (integration by parts) we get
 	\begin{align*}
 		\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot \psi(x,t)W(x,t)\,\mathrm dx\mathrm dt=-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)\,\mathrm dx\mathrm dt+\left[\int\limits_\Omega \rho c\psi(x,t)W(x,t)\,\mathrm dx\right]_0^{t_F}=-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)\,\mathrm dx\mathrm dt+\int\limits_\Omega \rho c\psi(x,t_F)W(x,t_F)\,\mathrm dx
 	\end{align*}
-	when assuming $W(x,0)=0$ a.e. (because $W$ has to be able to operate as test function for (SE)) and thus $\psi\in H^1_\Gamma(\Omega\times(0,t_F))$. With these it is
+	when assuming $W(x,0)=0$ a.e. (because $W$ has to be able to operate as test function for (SE)) and thus $\psi\in H^1_\Gamma(\Omega\times(0,t_F))$, which gives the weak version as
+	\begin{align*}
+		0=\int\limits_\Omega \gamma\left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t_F)+\rho c\psi(x,t_F)W(x,t_F)\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega -\rho c\dot W(x,t)\psi(x,t)+k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	or when setting the end condition based on the first integral simply as
+	\begin{align*}
+		\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)-k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt=-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt \tag{WAE}
+	\end{align*}
+	Also by Green for any $t\in(0,t_F)$ it is
+	\begin{align*}
+		\int\limits_\Omega k(x)\nabla\psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx=-\int\limits_\Omega \nabla\cdot\left(k(x)\nabla W(x,t)\right)\psi(x,t)\,\mathrm dx+\int\limits_{\partial\Omega} k(y)\partial_\nu W(y,t)\psi(y,t)\,\mathrm dy
+	\end{align*}
+	With these it is
 	\begin{align*}
 		L_T(T,Q,W)\psi=\gamma\int\limits_\Omega \left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t)\mathrm dx-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)+\nabla\cdot\left(k(x)\nabla W(x,t)\right)\psi(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)-k(y)\partial_\nu W(y,t)\psi(y,t)\,\mathrm dy\mathrm dt+\int\limits_\Omega \rho c\psi(x,t_F)W(x,t_F)\,\mathrm dx
 	\end{align*}
@@ -89,10 +97,7 @@
 			W(x,t_F)&=-\frac{\gamma}{\rho c}\left(T(x,t_F)-T_\text{fin}(x)\right)&&\text{in}\ \Omega
 		\end{aligned}\end{cases}\tag{AE}
 	\end{align*}
-	Thus, we can see that the (AE) has to be solved backwards in time. The weak version is
-	\begin{align*}
-		\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)-k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt=-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt \tag{WAE}
-	\end{align*}
+	Thus, we can see that the (AE) has to be solved backwards in time.
 	For the (AE) we have
 	\begin{align*}
 		a_\text{AE}(W,\psi)=\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)-k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt\qquad\qquad l_\text{AE}(\psi)=0
@@ -120,7 +125,7 @@
 	\end{align}
 	which then gives us the original adjoint as $W(x,t)=\widetilde W(x,t_F-t)$.
 
-	\subsection{Variation} \label{sec:Variation}
+	\paragraph{Variation} \label{sec:Variation}
 	In order to find the adjoint, we introduce a small variation $\delta T$ of $T$ in the respective space and look at the difference this variation makes on $L$ (this is like computing $L(T_1,Q,W)-L(T_2,Q,W)$, remember that the adjoint is a measure for the sensitivity of the functional with respect to $T$).
 	\begin{align*}
 		\delta_TL(T,Q,W)&=\frac\gamma2\int\limits_\Omega \delta_T|T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot {\delta T}(x,t)W(x,t)-k(x)\nabla \delta T(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(\delta T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt \\
@@ -129,20 +134,127 @@
 	\end{align*}
 	where we used the same as above and $\delta T(x,0)=0$ because of the initial value condition, which fixes the $T$s there and because the term is linear. Also for the first term we used Taylor giving us $x^2=x_0^2+2x(x-x_0)+o((x-x_0)^2)$, giving us $\delta_x(x-a)^2=(x-a)^2-(x_0-a)^2=2(x-a)(x-x_0)+o(x-x_0)=2(x-a)\delta_x$.
 
+	\paragraph{Solution operator + gradient}
 	Now we introduce the solution operator $S$, which for a given $Q$ gives the solution $T$ of the (SE), so $T=S(Q)$. With this we can introduce the reduced energy functional
 	\begin{align}
-		e(Q)=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |S(Q)(x,t_F)-T_\text{fin}(x)|^2\mathrm dx
+		e(Q)=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |S(Q)(x,t_F)-T_\text{fin}(x)|^2\mathrm dx
 	\end{align}
 	In order to find the gradient of $e$ we differentiate it and find by noting that $S$ is linear and therefore has derivative $S'(Q)h=Sh$
 	\begin{align}
-		e'(Q)h&=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)h(x,t)\,\mathrm{d}x\mathrm dt+\gamma\int\limits_\Omega (S(Q)(x,t_F)-T_\text{fin}(x))Sh\mathrm dx\\
+		e'(Q)h&=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)h(x,t)\,\mathrm{d}x\mathrm dt+\gamma\int\limits_\Omega (S(Q)(x,t_F)-T_\text{fin}(x))Sh\mathrm dx\\
 		&=\langle p|h\rangle+\langle S(Q)-T_\text{fin} | Sh\rangle|_{t=t_F}=\langle p|h\rangle+\gamma\langle S^*(S(Q)-T_\text{fin}) | h\rangle|_{t=t_F} \equiv p-\rho cW
 	\end{align}
 	where $S^*$ is the solution operator for (AE) and $W$ is the solution ........
 
-	\section{version 2}
+	\section{Linear $pQ$ with $\lambda$ on $Q$}
 	\begin{align*}
-		&\min E(Q,T)=\int\limits_{t_1}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx \\
+		&\min E(Q,T)=\frac\gamma2\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac12\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx \\
+		&\begin{cases}\begin{aligned}
+				\rho c\dot T(x,t)&=\nabla\cdot\left(k(x)\nabla T(x,t)\right)+Q(x,t) && \text{in}\ \Omega\times(0,t_F) \\
+				-k(x)\partial_\nu T(x,t)&=h(x)\left(T(x,t)-T_\text{out}(x,t)\right) && \text{on}\ \partial\Omega\times[0,t_F]\\
+				T(x,0)&=T_\text{ini}(x) &&
+		\end{aligned}\end{cases}\tag{SE}\\
+		& Q\in U_\text{ad}=\{Q\in L^2(\Omega\times(0,t_F))\,|\,0\leq Q(x,t)\leq Q_\text{max}(x)\ \text{a.e.}\}
+	\end{align*}
+
+	\paragraph{SE and WSE}
+	\begin{align*}
+		\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)\phi(x,t)\,\mathrm dx\mathrm dt=\int\limits_0^{t_F}\int\limits_\Omega -k(x)\nabla T(x,t)\cdot\nabla \phi(x,t)+Q(x,t)\phi(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)\phi(y,t)\,\mathrm dy\mathrm dt \tag{WSE}
+	\end{align*}
+	and thus
+	\begin{align*}
+		&a_\text{SE}(T,\phi)=\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)\phi(x,t)+k(x)\nabla T(x,t)\cdot\nabla \phi(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)T(y,t)\phi(y,t)\,\mathrm dy\mathrm dt,\qquad\qquad\\
+		&l_\text{SE}(\phi)=\int\limits_0^{t_F}\int\limits_\Omega Q(x,t)\phi(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)T_\text{out}(y)\phi(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	By Lax-Milgram there exists a unique solution $T(x,t)$ and thus we can define a solution operator $S:L^2(\Omega\times(0,t_F))\to H^1(\Omega\times(0,t_F))$, $S(Q)=T$.
+
+	\paragraph{Lagrangian + AE}
+	From the optimisation functional and the (WSE) we get the Lagrangian as
+	\begin{align*}
+		L(T,Q,W)=\frac\gamma2\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac12\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)+k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	\begin{align*}
+		L_T(T,Q,W)\psi=\int\limits_\Omega \left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t_F)\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \underbrace{\rho c\dot \psi(x,t)W(x,t)}_{\begin{aligned}
+				&=-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)\,\mathrm dx\mathrm dt+\left[\int\limits_\Omega \rho c\psi(x,t)W(x,t)\,\mathrm dx\right]_0^{t_F} \\
+				&=-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)\,\mathrm dx\mathrm dt+\int\limits_\Omega \rho c\psi(x,t_F)W(x,t_F)\,\mathrm dx
+		\end{aligned}}+k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	which gives the weak version as
+	\begin{align*}
+		0=\int\limits_\Omega \left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t_F)+\rho c\psi(x,t_F)W(x,t_F)\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega -\rho c\dot W(x,t)\psi(x,t)+k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	or when setting the end condition based on the first integral simply as
+	\begin{align*}
+		\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)-k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt=0 \tag{WAE}
+	\end{align*}
+	Also by Green for any $t\in(0,t_F)$ it is
+	\begin{align*}
+		\int\limits_\Omega k(x)\nabla\psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx=-\int\limits_\Omega \nabla\cdot\left(k(x)\nabla W(x,t)\right)\psi(x,t)\,\mathrm dx+\int\limits_{\partial\Omega} k(y)\partial_\nu W(y,t)\psi(y,t)\,\mathrm dy
+	\end{align*}
+	With these it is
+	\begin{align*}
+		L_T(T,Q,W)\psi=\int\limits_\Omega \left(T(x,t_F)-T_\text{fin}(x)\right)\psi(x,t)\mathrm dx-\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)+\nabla\cdot\left(k(x)\nabla W(x,t)\right)\psi(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)-k(y)\partial_\nu W(y,t)\psi(y,t)\,\mathrm dy\mathrm dt+\int\limits_\Omega \rho c\psi(x,t_F)W(x,t_F)\,\mathrm dx
+	\end{align*}
+	giving the strong version
+	\begin{align*}
+		\begin{cases}\begin{aligned}
+				\rho c\dot W(x,t)&=-\nabla\cdot\left(k(x)\nabla W(x,t)\right)&&\text{in}\ \Omega\times(0,t_F) \\
+				k(y)\partial_\nu W(y,t)&=h(y)W(y,t)&&\text{on}\ \partial\Omega\times[0,t_F] \\
+				W(x,t_F)&=-\frac{1}{\rho c}\left(T(x,t_F)-T_\text{fin}(x)\right)&&\text{in}\ \Omega
+		\end{aligned}\end{cases}\tag{AE}
+	\end{align*}
+	Thus, we can see that the (AE) has to be solved backwards in time.
+	For the (AE) we have
+	\begin{align*}
+		a_\text{AE}(W,\psi)=\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot W(x,t)-k(x)\nabla \psi(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)W(y,t)\,\mathrm dy\mathrm dt\qquad\qquad l_\text{AE}(\psi)=0
+	\end{align*}
+	By Lax-Milgram there exists a unique solution $W(x,t)$ and thus a solution operator $S^*:L^2(\Omega)\to H^1(\Omega\times(0,t_F))$, $S^*(T(x,t_F)-T_\text{fin}(x))=W(x,t)$.
+
+	Henning: Actually, we get the (AE) by the variation principle and not by differentiation, which does not fully make sense here (see \ref{sec:Variation}).
+
+	\paragraph{adjoint forward}
+	Since the (AE) has to be solved backwards in time, which is not possible with the software we are using (although implementation would be just as is) we introduce $\widetilde W(x,t)=W(x,t_F-t)$. By the (AE) this function satisfies
+	\begin{align}
+		\begin{cases}\begin{aligned}
+				\rho c\dot {\widetilde W}(x,t)&=\nabla\cdot\left(k(x)\nabla \widetilde W(x,t)\right)&&\text{in}\ \Omega\times(0,t_F) \\
+				k(y)\partial_\nu \widetilde W(y,t)&=h(y)\widetilde W(y,t)&&\text{on}\ \partial\Omega\times[0,t_F] \\
+				\widetilde W(x,0)&=-\frac{1}{\rho c}\left(T(x,t_F)-T_\text{fin}(x)\right)&&\text{in}\ \Omega
+		\end{aligned}\end{cases}\tag{AE'}
+	\end{align}
+	which can now be solved forward in time. The weak version is
+	\begin{align}
+		\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot{\widetilde{W}}(x,t)+k(x)\nabla \psi(x,t)\cdot\nabla \widetilde W(x,t)\,\mathrm dx\mathrm dt=\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)\widetilde W(y,t)\,\mathrm dy\mathrm dt \tag{WAE}
+	\end{align}
+	For the (AE') we have
+	\begin{align}
+		a_\text{AE}(\widetilde W,\psi)=\int\limits_0^{t_F}\int\limits_\Omega \rho c\psi(x,t)\dot {\widetilde W}(x,t)+k(x)\nabla \psi(x,t)\cdot\nabla \widetilde W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\psi(y,t)\widetilde W(y,t)\,\mathrm dy\mathrm dt\qquad\qquad l_\text{AE}(\psi)=0
+	\end{align}
+	which then gives us the original adjoint as $W(x,t)=\widetilde W(x,t_F-t)$.
+
+	\paragraph{Variation}
+	In order to find the adjoint, we introduce a small variation $\delta T$ of $T$ in the respective space and look at the difference this variation makes on $L$ (this is like computing $L(T_1,Q,W)-L(T_2,Q,W)$, remember that the adjoint is a measure for the sensitivity of the functional with respect to $T$).
+	\begin{align*}
+		\delta_TL(T,Q,W)&=\frac12\int\limits_\Omega \delta_T|T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot {\delta T}(x,t)W(x,t)-k(x)\nabla \delta T(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(\delta T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt \\
+		&=\int\limits_\Omega (T(x,t_F)-T_\text{fin}(x))\delta T(x,t_F)\mathrm dx-\int\limits_0^{t_F}\int\limits_\Omega \rho c\delta T(x,t)\dot W(x,t)\,\mathrm dx\mathrm dt+\int\limits_\Omega \rho c\delta T(x,t_F)W(x,t_F)\,\mathrm dx
+		-\int\limits_0^{t_F}\int\limits_\Omega k(x)\nabla \delta T(x,t)\cdot\nabla W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(\delta T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	where we used the same as above and $\delta T(x,0)=0$ because of the initial value condition, which fixes the $T$s there and because the term is linear. Also for the first term we used Taylor giving us $x^2=x_0^2+2x(x-x_0)+o((x-x_0)^2)$, giving us $\delta_x(x-a)^2=(x-a)^2-(x_0-a)^2=2(x-a)(x-x_0)+o(x-x_0)=2(x-a)\delta_x$.
+
+	\paragraph{Solution operator + gradient}
+	Now we introduce the solution operator $S$, which for a given $Q$ gives the solution $T$ of the (SE), so $T=S(Q)$. With this we can introduce the reduced energy functional
+	\begin{align}
+		e(Q)=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |S(Q)(x,t_F)-T_\text{fin}(x)|^2\mathrm dx
+	\end{align}
+	In order to find the gradient of $e$ we differentiate it and find by noting that $S$ is linear and therefore has derivative $S'(Q)h=Sh$
+	\begin{align}
+		e'(Q)h&=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)h(x,t)\,\mathrm{d}x\mathrm dt+\gamma\int\limits_\Omega (S(Q)(x,t_F)-T_\text{fin}(x))Sh\mathrm dx\\
+		&=\langle p|h\rangle+\langle S(Q)-T_\text{fin} | Sh\rangle|_{t=t_F}=\langle p|h\rangle+\gamma\langle S^*(S(Q)-T_\text{fin}) | h\rangle|_{t=t_F} \equiv p-\rho cW
+	\end{align}
+	where $S^*$ is the solution operator for (AE) and $W$ is the solution ........
+
+	\section{version 2: quadratic $pQ$ with $\lambda$ on $T$}
+	\begin{align*}
+		&\min E(Q,T)=\frac12\int\limits_{0}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx \\
 		&\begin{cases}\begin{aligned}
 			\rho c\dot T(x,t)&=\nabla\cdot\left(k(x)\nabla T(x,t)\right)+Q(x,t) && \text{in}\ \Omega\times(0,t_F) \\
 			-k(x)\partial_\nu T(x,t)&=h(x)\left(T(x,t)-T_\text{out}(x,t)\right) && \text{on}\ \partial\Omega\times[0,t_F]\\
@@ -150,50 +262,65 @@
 		\end{aligned}\end{cases}\tag{SE}\\
 		& Q\in U_\text{ad}=\{Q\in L^2(\Omega\times(0,t_F))\,|\,0\leq Q(x,t)\leq Q_\text{max}(x)\ \text{a.e.}\}
 	\end{align*}
-	In this case everything stays the same but the Lagrangian is
+	In this case mostly everything stays the same.
+
+	\paragraph{SE and WSE}
+	We have the weak formulation
+	\begin{align*}
+		\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)\phi(x,t)\,\mathrm dx\mathrm dt=\int\limits_0^{t_F}\int\limits_\Omega -k(x)\nabla T(x,t)\cdot\nabla \phi(x,t)+Q(x,t)\phi(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)\phi(y,t)\,\mathrm dy\mathrm dt \tag{WSE}
+	\end{align*}
+	and thus
+	\begin{align*}
+		&a_\text{SE}(T,\phi)=\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)\phi(x,t)+k(x)\nabla T(x,t)\cdot\nabla \phi(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)T(y,t)\phi(y,t)\,\mathrm dy\mathrm dt,\qquad\qquad\\
+		&l_\text{SE}(\phi)=\int\limits_0^{t_F}\int\limits_\Omega Q(x,t)\phi(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)T_\text{out}(y)\phi(y,t)\,\mathrm dy\mathrm dt
+	\end{align*}
+	By Lax-Milgram there exists a unique solution $T(x,t)$ and thus we can define a solution operator $S:L^2(\Omega\times(0,t_F))\to H^1(\Omega\times(0,t_F))$, $S(Q)=T$.
+
+	\paragraph{Lagrangian + AE}
+	One difference is the Lagrangian which is
 	\begin{align}
-		L(T,Q,W)=\int\limits_{t_1}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)-k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
+		L(T,Q,W)=\frac12\int\limits_{0}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |T(x,t_F)-T_\text{fin}(x)|^2\mathrm dx+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)-k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt-\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt
 	\end{align}
 
 
 	\paragraph{Solution operator + gradient}
 	Now we introduce the solution operator $S$, which for a given $Q$ gives the solution $T$ of the (SE), so $T=S(Q)$. With this we can introduce the reduced energy functional
 	\begin{align}
-		e(Q)=\int\limits_{t_1}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |S(Q)(x,t_F)-T_\text{fin}(x)|^2\mathrm dx
+		e(Q)=\frac12\int\limits_{0}^{t_F}\int\limits_\Omega (p(t)Q(x,t))^2\,\mathrm{d}x\mathrm dt+\frac\gamma2\int\limits_\Omega |S(Q)(x,t_F)-T_\text{fin}(x)|^2\mathrm dx
 	\end{align}
 	In order to find the gradient of $e$ we differentiate it and find by noting that $S$ is linear and therefore has derivative $S'(Q)h=Sh$
 	\begin{align*}
-		e'(Q)h&=\int\limits_{t_1}^{t_F}\int\limits_\Omega 2p^2(t)Q(x,t)h(x,t)\,\mathrm{d}x\mathrm dt+\gamma\int\limits_\Omega (S(Q)(x,t_F)-T_\text{fin}(x))Sh\mathrm dx\\
-		&=\langle 2p^2Q|h\rangle+\langle S(Q)-T_\text{fin} | Sh\rangle|_{t=t_F}=2\langle p^2Q|h\rangle+\langle S^*(S(Q)-T_\text{fin}) | h\rangle|_{t=t_F} \equiv 2p^2Q-W
+		e'(Q)h&=\int\limits_{0}^{t_F}\int\limits_\Omega p^2(t)Q(x,t)h(x,t)\,\mathrm{d}x\mathrm dt+\gamma\int\limits_\Omega (S(Q)(x,t_F)-T_\text{fin}(x))Sh\mathrm dx\\
+		&=\langle p^2Q|h\rangle+\gamma\langle S(Q)-T_\text{fin} | Sh\rangle|_{t=t_F}=\langle p^2Q|h\rangle+\langle \gamma S^*(S(Q)-T_\text{fin}) | h\rangle|_{t=t_F} \hat= p^2Q-W
 	\end{align*}
 
-	Thus, without box constraints from the condition $e'(Q)=0$ we would get $Q=-\frac{1}{2p^2}W$ and can use the projection of that onto the box for our case (see bang bang).
+	Thus, without box constraints from the condition $e'(Q)=0$ we would get $Q=\frac{1}{p^2}W$ and can use the projection of that onto the box for our case (see bang bang).
 
 	We can also get the gradient by the (VI) which we get by $L_Q=0$ as
-	\[0=L_Q(T,Q,W)h=2\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)h(x,t)\,\mathrm{d}x\mathrm dt-\int\limits_0^{t_F}\int\limits_\Omega W(x,t)h(x,t)\,\mathrm dx\mathrm dt=\langle 2p^2Q-W,h\rangle_{L^2(\Omega\times(0,t_F))}\]
+	\[0=L_Q(T,Q,W)h=\int\limits_{0}^{t_F}\int\limits_\Omega p^2(t)Q(x,t)h(x,t)\,\mathrm{d}x\mathrm dt-\int\limits_0^{t_F}\int\limits_\Omega W(x,t)h(x,t)\,\mathrm dx\mathrm dt=\langle p^2Q-W,h\rangle_{L^2(\Omega\times(0,t_F))}\]
 	This property has to hold for every $h\in Q_\text{ad}-Q$ for the $Q$ from the integral, which gives us the bang-bang result.
 
 	\paragraph{Optimal step size}
-	We found out that the gradient of the reduced cost is $\nabla e(Q)=2p^2Q-\rho cW$, so in the gradient descent algorithm we will go into the negative of that direction and we can actually compute the optimal step size. Consider a given iteration $k$ and the computed control $Q_k$, state $T_k$ and adjoint $W_k$. Also let $v_k=-\nabla e(Q)=-(2p^2Q-\rho cW)$, $I=[t_0,t_F]$ and define as the step-length-dependent function we want to minimise in the iteration
+	We found out that the gradient of the reduced cost is $\nabla e(Q)=p^2Q-W$, so in the gradient descent algorithm we will go into the negative of that direction and we can actually compute the optimal step size. Consider a given iteration $k$ and the computed control $Q_k$, state $T_k$ and adjoint $W_k$. Also let $v_k=-\nabla e(Q)=-(p^2Q-W)$, $I=[t_0,t_F]$ and define as the step-length-dependent function we want to minimise in the iteration
 	$$g(s)=e(Q_k+sv_k)$$
 	Then we can rewrite
 	\begin{align*}
 		g(s)&=e(Q_k+sv_k)\\
-		&=\lVert p(Q_k+sv_k)\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert S(Q_k+sv_k)-T_{\text{fin}}\rVert^2_{L^2(\Omega)}\big|_{t=t_F} \\
-		&=\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+2s\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+s^2\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}+\gamma s\langle T_k-T_\text{fin},Sv_k\rangle_{L^2(\Omega)}\big|_{t=t_F}+s^2\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F} \\
-		&=s^2\Big(\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(2\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\gamma \langle T_k-T_\text{fin},Sv_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
-		&=s^2\Big(\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(2\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\gamma \langle S^*(T_k-T_\text{fin}),v_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
-		&=s^2\Big(\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(2\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\langle \rho cW_k,v_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
-		&=s^2\Big(\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)-s\lVert v_k\rVert^2_{L^2(\Omega\times I)}+1\Big(\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)
+		&=\frac12\lVert p(Q_k+sv_k)\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert S(Q_k+sv_k)-T_{\text{fin}}\rVert^2_{L^2(\Omega)}\big|_{t=t_F} \\
+		&=\frac12\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+s\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\frac{s^2}{2}\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}+\gamma s\langle T_k-T_\text{fin},Sv_k\rangle_{L^2(\Omega)}\big|_{t=t_F}+s^2\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F} \\
+		&=s^2\Big(\frac12\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\gamma \langle T_k-T_\text{fin},Sv_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\frac12\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
+		&=s^2\Big(\frac12\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\gamma \langle S^*(T_k-T_\text{fin}),v_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\frac12\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
+		&=s^2\Big(\frac12\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)+s\Big(\langle p^2Q_k,v_k\rangle_{L^2(\Omega\times I)}+\langle W_k,v_k\rangle_{L^2(\Omega)}\big|_{t=t_F}\Big)+1\Big(\frac12\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big) \\
+		&=s^2\Big(\frac12\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)-s\lVert v_k\rVert^2_{L^2(\Omega\times I)}+1\Big(\frac12\lVert pQ_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert T_k-T_\text{fin}\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\Big)
 	\end{align*}
 	This is a quadratic function in $s$ and has the minimum in
-	$$s_\text{min}=\frac{\lVert v_k\rVert^2_{L^2(\Omega\times I)}}{2\left(\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\frac\gamma2\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}\right)}$$
+	$$s_\text{min}=\frac{\lVert v_k\rVert^2_{L^2(\Omega\times I)}}{\lVert pv_k\rVert^2_{L^2(\Omega\times I)}+\gamma\lVert Sv_k\rVert^2_{L^2(\Omega)}\big|_{t=t_F}}$$
 	which requires to solve the (SE) again with input $v_k$ instead of $Q_k$.
 
 
 	\section{Version 3}
 	\begin{align*}
-		&\min E(Q,T)=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt \\
+		&\min E(Q,T)=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt \\
 		&\begin{cases}\begin{aligned}
 				\rho c\dot T(x,t)&=\nabla\cdot\left(k(x)\nabla T(x,t)\right)+Q(x,t) && \text{in}\ \Omega\times(0,t_F) \\
 				-k(x)\partial_\nu T(x,t)&=h(x)\left(T(x,t)-T_\text{out}(x,t)\right) && \text{on}\ \partial\Omega\times[0,t_F]\\
@@ -204,7 +331,7 @@
 	\end{align*}
 	The (SE) and thus (WSE) is the same. But we get a new Lagrangian multiplier $\mu\geq0$ and the Lagrangian is
 	\begin{align*}
-		L(T,q,W,\mu)=\int\limits_{t_1}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)+k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt+\int\limits_\Omega \mu(x)(T(x,t_F)-T_\text{fin}(x))\mathrm dx
+		L(T,q,W,\mu)=\int\limits_{0}^{t_F}\int\limits_\Omega p(t)Q(x,t)\,\mathrm{d}x\mathrm dt+\int\limits_0^{t_F}\int\limits_\Omega \rho c\dot T(x,t)W(x,t)+k(x)\nabla T(x,t)\cdot\nabla W(x,t)-Q(x,t)W(x,t)\,\mathrm dx\mathrm dt+\int\limits_0^{t_F}\int\limits_{\partial\Omega} h(y)\left(T(y,t)-T_\text{out}(y)\right)W(y,t)\,\mathrm dy\mathrm dt+\int\limits_\Omega \mu(x)(T(x,t_F)-T_\text{fin}(x))\mathrm dx
 	\end{align*}
 
 
