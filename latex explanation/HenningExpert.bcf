@@ -2374,6 +2374,34 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper</bcf:citekey>
     <bcf:citekey order="2" intorder="1">Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">TabarkiMabrouk2012ModelingEperimentationHeatExchangesRoomHeatedRadiatorjournalArticle</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">HahnOzisik2012Heatconductionbook</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">BadiaVerdugo2020GridapextensibleFiniteElementtoolboxJuliajournalArticle</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">VerdugoBadia2022softwaredesignGridapFiniteElementpackagebasedJuliaJITcompilerjournalArticle</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">VanKeulen2014IndirectsolutionoptimalcontrolproblemspurestateconstraintjournalArticle</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">TrapnesOptimalTemperatureControlRoomsjournalArticle</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">PulsipherZhangHongistoZavala2022UnifyingModelingAbstractionInfiniteDimensionalOptimizationjournalArticle</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">LoosdirekteMethodefuerOptimalsteuerungsproblememitparabolischenDifferentialgleichungenwebpage</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">LewisNithiarasuSeetharamu2004FundamentalsFiniteElementMethodHeatFluidFlowbook</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">IncroperaDewittBergmanLavine2007Fundamentalsheatmasstransferbook</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">HuangSeidelJiaPaschkeBraunig2021EnergyOptimalControlMultivalentBuildingEnergySystemusingMachineLearningconferencePaper</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Hinze2005VariationalDiscretizationConceptControlConstrainedOptimizationLinearQuadraticCasejournalArticle</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">HahnOzisik2012Heatconductionbook</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">GustafssonRonnqvist2008OptimalheatinglargeblockflatsjournalArticle</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">GongHinzeZhou2014finiteelementmethodDirichletboundarycontrolproblemsgovernedparabolicPDEspreprint</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">GockenbachSchmidtke2009NewtonslawheatingheatequationjournalArticle</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">FilipovHristovAvdzhievaFarago2023CoupledPDEODEModelNonlinearTransientHeatTransferConvectionHeatingBoundaryNumericalSolutionImplicitTimeDiscretizationSequentialDecouplingjournalArticle</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Evans2010Partialdifferentialequationsbook</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">BiralBertolazziBosetti2016NotesNumericalMethodsSolvingOptimalControlProblemsjournalArticle</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">BauschkeCombettes2017ConvexAnalysisMonotoneOperatorTheoryHilbertSpacesbook</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Alt2016LinearFunctionalAnalysisbook</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Mordukhovich2006VariationalAnalysisGeneralizedDifferentiationbook</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Luenberger1969OptimizationVectorSpaceMethodsbook</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Troeltzsch2009OptimaleSteuerungpartiellerDifferentialgleichungenTheorieVerfahrenundAnwendungenbook</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Liberzon2012CalculusVariationsOptimalControlTheoryConciseIntroductionbook</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">LoosdirekteMethodefuerOptimalsteuerungsproblememitparabolischenDifferentialgleichungenwebpage</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Stengel1994OptimalControlEstimationbook</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,15 +1,22 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'HenningExpert.blg'
-[138] biber-MSWIN64:340> INFO - === 
-[186] Biber.pm:420> INFO - Reading 'HenningExpert.bcf'
-[302] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
-[319] Biber.pm:4463> INFO - Processing section 0
-[330] Biber.pm:4654> INFO - Looking for bibtex file '../Bibo/Experts in Teams.bib' for section 0
-[422] bibtex.pm:1713> INFO - LaTeX decoding ...
-[886] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibo/Experts in Teams.bib'
-[938] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[939] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[939] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[939] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[943] bbl.pm:676> INFO - Writing 'HenningExpert.bbl' with encoding 'UTF-8'
-[944] bbl.pm:779> INFO - Output to HenningExpert.bbl
+[115] biber-MSWIN64:340> INFO - === 
+[169] Biber.pm:420> INFO - Reading 'HenningExpert.bcf'
+[287] Biber.pm:994> INFO - Found 26 citekeys in bib section 0
+[297] Biber.pm:4463> INFO - Processing section 0
+[307] Biber.pm:4654> INFO - Looking for bibtex file '../Bibo/Experts in Teams.bib' for section 0
+[377] bibtex.pm:1713> INFO - LaTeX decoding ...
+[420] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibo/Experts in Teams.bib'
+[549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[549] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[549] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[549] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[571] bbl.pm:676> INFO - Writing 'HenningExpert.bbl' with encoding 'UTF-8'
+[586] bbl.pm:779> INFO - Output to HenningExpert.bbl
+[586] Biber.pm:131> WARN - ISBN '978-0-470-84788-6 978-0-470-01416-5' in entry 'LewisNithiarasuSeetharamu2004FundamentalsFiniteElementMethodHeatFluidFlowbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:131> WARN - ISBN '978-3-319-48310-8 978-3-319-48311-5' in entry 'BauschkeCombettes2017ConvexAnalysisMonotoneOperatorTheoryHilbertSpacesbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:131> WARN - ISBN '978-1-4471-7279-6 978-1-4471-7280-2' in entry 'Alt2016LinearFunctionalAnalysisbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:131> WARN - ISBN '978-3-540-25437-9 978-3-540-31247-5' in entry 'Mordukhovich2006VariationalAnalysisGeneralizedDifferentiationbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:131> WARN - ISBN '978-3-8348-0885-1 978-3-8348-9357-4' in entry 'Troeltzsch2009OptimaleSteuerungpartiellerDifferentialgleichungenTheorieVerfahrenundAnwendungenbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:131> WARN - ISBN '978-0-691-15187-8 978-1-4008-4264-3' in entry 'Liberzon2012CalculusVariationsOptimalControlTheoryConciseIntroductionbook' is invalid - run biber with '--validate_datamodel' for details.
+[586] Biber.pm:133> INFO - WARNINGS: 6

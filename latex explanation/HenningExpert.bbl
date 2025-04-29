@@ -19,6 +19,705 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{Alt2016LinearFunctionalAnalysisbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d35caba70c0c1cf715905f0a1028acc0}{%
+           family={Alt},
+           familyi={A\bibinitperiod},
+           given={Hans\bibnamedelima Wilhelm},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{fullhash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{fullhashraw}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{bibnamehash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{authorbibnamehash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{authornamehash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{authorfullhash}{d35caba70c0c1cf715905f0a1028acc0}
+      \strng{authorfullhashraw}{d35caba70c0c1cf715905f0a1028acc0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4471-7279-6 978-1-4471-7280-2}
+      \field{series}{Universitext}
+      \field{title}{Linear {{Functional Analysis}}}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4471-7280-2
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\RTR4MY66\Alt - 2016 - Linear Functional Analysis.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-1-4471-7280-2
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4471-7280-2
+      \endverb
+      \keyw{Banach Space,Functional Analysis,Hilbert Space,Partial Differential Equations,Spectral theory}
+    \endentry
+    \entry{BadiaVerdugo2020GridapextensibleFiniteElementtoolboxJuliajournalArticle}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e8a243d078bfdade6791201f05f86214}{%
+           family={Badia},
+           familyi={B\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c763b2408349becf8527b072583f5d76}{%
+           family={Verdugo},
+           familyi={V\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{fullhash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{fullhashraw}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{bibnamehash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{authorbibnamehash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{authornamehash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{authorfullhash}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \strng{authorfullhashraw}{6d10c69fe0f5ef42c77f353ca97378f1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Badia et al., (2020). Gridap: An extensible Finite Element toolbox in Julia. Journal of Open Source Software, 5(52), 2520, https://doi.org/10.21105/joss.02520}
+      \field{issn}{2475-9066}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{52}
+      \field{shorttitle}{Gridap}
+      \field{title}{Gridap: {{An}} extensible {{Finite Element}} toolbox in {{Julia}}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{2520}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.02520
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\GNFZ8W2A\Badia und Verdugo - 2020 - Gridap An extensible Finite Element toolbox in Julia.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://joss.theoj.org/papers/10.21105/joss.02520
+      \endverb
+      \verb{url}
+      \verb https://joss.theoj.org/papers/10.21105/joss.02520
+      \endverb
+    \endentry
+    \entry{BauschkeCombettes2017ConvexAnalysisMonotoneOperatorTheoryHilbertSpacesbook}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=15dd288d9468a9c695576829ca941307}{%
+           family={Bauschke},
+           familyi={B\bibinitperiod},
+           given={Heinz\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f1eaaab333ae42f1c1bd7b577c76ff22}{%
+           family={Combettes},
+           familyi={C\bibinitperiod},
+           given={Patrick\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{fullhash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{fullhashraw}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{bibnamehash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{authorbibnamehash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{authornamehash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{authorfullhash}{61c3d382c8699fe176e03ba8c2b73392}
+      \strng{authorfullhashraw}{61c3d382c8699fe176e03ba8c2b73392}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-48310-8 978-3-319-48311-5}
+      \field{langid}{english}
+      \field{series}{{{CMS Books}} in {{Mathematics}}}
+      \field{title}{Convex {{Analysis}} and {{Monotone Operator Theory}} in {{Hilbert Spaces}}}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-48311-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\SJVVCB6W\Bauschke und Combettes - 2017 - Convex Analysis and Monotone Operator Theory in Hilbert Spaces.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-319-48311-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-319-48311-5
+      \endverb
+    \endentry
+    \entry{BiralBertolazziBosetti2016NotesNumericalMethodsSolvingOptimalControlProblemsjournalArticle}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2dd1500321ec861e0b4c158eb33d63d0}{%
+           family={Biral},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6466b7e2147720ebc732227019e70748}{%
+           family={Bertolazzi},
+           familyi={B\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=df56edb08976f1c1b6151344082e7816}{%
+           family={Bosetti},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{fullhash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{fullhashraw}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{bibnamehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{authorbibnamehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{authornamehash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{authorfullhash}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \strng{authorfullhashraw}{c1dee4c016d83cf9526da7ce4fd4d05c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advances in theory, algorithms, and computational power make it possible to solve complex, optimal control problems both for off-line and on-line industrial applications. This paper starts by reviewing the technical details of the solution methods pertaining to three general categories: dynamic programming, indirect methods, and direct methods. With the aid of a demonstration example, the advantages and disadvantages of each method are discussed, along with a brief review of available software. The main result that emerges is the indirect method being numerically competitive with the performance of direct ones based on non-linear programming solvers and interior point algorithms. The second part of the paper introduces an indirect method based on the Pontryagin Minimum Principle (PMP). It also presents a detailed procedure and software tools (named PINS) to formulate the problem, automatically generate the C++ code, and eventually obtain a numerical solution for several optimal control problems of practical relevance. The application of PMP relates to the analytical derivation of necessary conditions for optimality. This aspect---often regarded in the literature as a drawback---is here exploited to build a robust yet efficient numerical method that formally eliminates the controls from the resulting Boundary Value Problem, thus gaining robustness and a high convergence rate. The elimination of the control is obtained either via their explicit formulation function of state and Lagrange multipliers---when possible---or via an iterative numerical solution. The paper closes presenting a minimum time manoeuvre of a car using a fairly complex vehicle model which also includes tyre saturation.}
+      \field{issn}{2187-1094, 2187-1108}
+      \field{journaltitle}{IEEJ Journal of Industry Applications}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Notes on {{Numerical Methods}} for {{Solving Optimal Control Problems}}}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{154\bibrangedash 166}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1541/ieejjia.5.154
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\GAH8W5K6\Biral et al. - 2016 - Notes on Numerical Methods for Solving Optimal Control Problems.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstage.jst.go.jp/article/ieejjia/5/2/5_154/_article
+      \endverb
+      \verb{url}
+      \verb https://www.jstage.jst.go.jp/article/ieejjia/5/2/5_154/_article
+      \endverb
+    \endentry
+    \entry{Evans2010Partialdifferentialequationsbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=0d72932a7775f85a51622d3af75ae26e}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lawrence\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Providence, R.I}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{fullhash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{fullhashraw}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{bibnamehash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{authorbibnamehash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{authornamehash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{authorfullhash}{0d72932a7775f85a51622d3af75ae26e}
+      \strng{authorfullhashraw}{0d72932a7775f85a51622d3af75ae26e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"This is the second edition of the now definitive text on partial differential equations (PDE). It offers a comprehensive survey of modern techniques in the theoretical study of PDE with particular emphasis on nonlinear equations. Its wide scope and clear exposition make it a great text for a graduate course in PDE. For this edition, the author has made numerous changes, including: a new chapter on nonlinear wave equations, more than 80 new exercises, several new sections, and a significantly expanded bibliography."--Publisher's description}
+      \field{annotation}{OCLC: ocn465190110}
+      \field{edition}{2nd ed}
+      \field{isbn}{978-0-8218-4974-3}
+      \field{langid}{english}
+      \field{number}{v. 19}
+      \field{series}{Graduate studies in mathematics}
+      \field{title}{Partial differential equations}
+      \field{year}{2010}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\QW2UPZ9G\Evans - 2010 - Partial differential equations.pdf
+      \endverb
+      \keyw{Differential equations Partial}
+    \endentry
+    \entry{FilipovHristovAvdzhievaFarago2023CoupledPDEODEModelNonlinearTransientHeatTransferConvectionHeatingBoundaryNumericalSolutionImplicitTimeDiscretizationSequentialDecouplingjournalArticle}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=07a506a5f0025fae525b65da55977dcf}{%
+           family={Filipov},
+           familyi={F\bibinitperiod},
+           given={Stefan\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=20dca71aeb8d1a0447b56a8be91be2f0}{%
+           family={Hristov},
+           familyi={H\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9fe0cf178db3de0302e17e0abe62077d}{%
+           family={Avdzhieva},
+           familyi={A\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3385d8b59d063360ca61293834b5a19d}{%
+           family={Faragó},
+           familyi={F\bibinitperiod},
+           given={István},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{a32fa6fbabc6747dc51162821d61a3d9}
+      \strng{fullhash}{93fe34309695e7daa9d402aafc9b0447}
+      \strng{fullhashraw}{93fe34309695e7daa9d402aafc9b0447}
+      \strng{bibnamehash}{a32fa6fbabc6747dc51162821d61a3d9}
+      \strng{authorbibnamehash}{a32fa6fbabc6747dc51162821d61a3d9}
+      \strng{authornamehash}{a32fa6fbabc6747dc51162821d61a3d9}
+      \strng{authorfullhash}{93fe34309695e7daa9d402aafc9b0447}
+      \strng{authorfullhashraw}{93fe34309695e7daa9d402aafc9b0447}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article considers heat transfer in a solid body with temperature-dependent thermal conductivity that is in contact with a tank filled with liquid. The liquid in the tank is heated by hot liquid entering the tank through a pipe. Liquid at a lower temperature leaves the tank through another pipe. We propose a one-dimensional mathematical model that consists of a nonlinear PDE for the temperature along the solid body, coupled to a linear ODE for the temperature in the tank, the boundary and the initial conditions. All equations are converted into a dimensionless form reducing the input parameters to three dimensionless numbers and a dimensionless function. A steady-state analysis is performed. To solve the transient problem, a nontrivial numerical approach is proposed whereby the differential equations are first discretized in time. This reduces the problem to a sequence of nonlinear two-point boundary value problems (TPBVP) and a sequence of linear algebraic equations coupled to it. We show that knowing the temperature in the system at time level n - 1 allows us to decouple the TPBVP and the corresponding algebraic equation at time level n. Thus, starting from the initial conditions, the equations are decoupled and solved sequentially. The TPBVPs are solved by FDM with the Newtonian method.}
+      \field{issn}{2075-1680}
+      \field{journaltitle}{Axioms}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{A {{Coupled PDE-ODE Model}} for {{Nonlinear Transient Heat Transfer}} with {{Convection Heating}} at the {{Boundary}}}
+      \field{title}{A {{Coupled PDE-ODE Model}} for {{Nonlinear Transient Heat Transfer}} with {{Convection Heating}} at the {{Boundary}}: {{Numerical Solution}} by {{Implicit Time Discretization}} and {{Sequential Decoupling}}}
+      \field{urlday}{23}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{323}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/axioms12040323
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\SM84HEMX\Filipov et al. - 2023 - A Coupled PDE-ODE Model for Nonlinear Transient Heat Transfer with Convection Heating at the Boundar.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-1680/12/4/323
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-1680/12/4/323
+      \endverb
+      \keyw{coupled PDE-ODE system,finite difference method,heat equation,nonlinear,TPBVP}
+    \endentry
+    \entry{GockenbachSchmidtke2009NewtonslawheatingheatequationjournalArticle}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9cc20ab6708b9c41e1f7f38139be0a2a}{%
+           family={Gockenbach},
+           familyi={G\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78aaf2f99982e0fa6b470ead9e704714}{%
+           family={Schmidtke},
+           familyi={S\bibinitperiod},
+           given={Kristin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{fullhash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{fullhashraw}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{bibnamehash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{authorbibnamehash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{authornamehash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{authorfullhash}{48776141059342b9f0e9d4d8ce21b82b}
+      \strng{authorfullhashraw}{48776141059342b9f0e9d4d8ce21b82b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1944-4176}
+      \field{journaltitle}{Involve, a Journal of Mathematics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Newton's law of heating and the heat equation}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{419\bibrangedash 437}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.2140/involve.2009.2.419
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\67BEWZL2\Gockenbach und Schmidtke - 2009 - Newton’s law of heating and the heat equation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://msp.org/involve/2009/2-4/p05.xhtml
+      \endverb
+      \verb{url}
+      \verb http://msp.org/involve/2009/2-4/p05.xhtml
+      \endverb
+    \endentry
+    \entry{GongHinzeZhou2014finiteelementmethodDirichletboundarycontrolproblemsgovernedparabolicPDEspreprint}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=5a51dd5a7c41b6022604655c9f740732}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e2fde25b02952858309896c49eb32891}{%
+           family={Hinze},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=82261ac340c1b7966858bc4dd3b21dc8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhaojie},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{fullhash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{fullhashraw}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{bibnamehash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{authorbibnamehash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{authornamehash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{authorfullhash}{81349aad9738cfc153cbfdbb8927614e}
+      \strng{authorfullhashraw}{81349aad9738cfc153cbfdbb8927614e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Finite element approximations of Dirichlet boundary control problems governed by parabolic PDEs on convex polygonal domains are studied in this paper. The existence of a unique solution to optimal control problems is guaranteed based on very weak solution of the state equation and \$L{\textasciicircum}2(0,T;L{\textasciicircum}2({\textbackslash}Gamma))\$ as control space. For the numerical discretization of the state equation we use standard piecewise linear and continuous finite elements for the space discretization of the state, while a dG(0) scheme is used for time discretization. The Dirichlet boundary control is realized through a space-time \$L{\textasciicircum}2\$-projection. We consider both piecewise linear, continuous finite element approximation and variational discretization for the controls and derive a priori \$L{\textasciicircum}2\$-error bounds for controls and states. We finally present numerical examples to support our theoretical findings.}
+      \field{eprintclass}{math}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{number}{arXiv:1410.0136}
+      \field{title}{A finite element method for {{Dirichlet}} boundary control problems governed by parabolic {{PDEs}}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1410.0136
+      \endverb
+      \verb{eprint}
+      \verb 1410.0136
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\paulschm\\Zotero\\storage\\HI72MCJH\\Gong et al. - 2014 - A finite element method for Dirichlet boundary control problems governed by parabolic PDEs.pdf;C\:\\Users\\paulschm\\Zotero\\storage\\3PSUTMII\\1410.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1410.0136
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1410.0136
+      \endverb
+      \keyw{Mathematics - Optimization and Control}
+    \endentry
+    \entry{GustafssonRonnqvist2008OptimalheatinglargeblockflatsjournalArticle}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=13bad1dba1ebb7d9c43040e9a99a7804}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={Stig-Inge},
+           giveni={S\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=5198b0bfb632739546ce23806a4676d4}{%
+           family={Rönnqvist},
+           familyi={R\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bdade2f177551ee1676919db61b7637}
+      \strng{fullhash}{7bdade2f177551ee1676919db61b7637}
+      \strng{fullhashraw}{7bdade2f177551ee1676919db61b7637}
+      \strng{bibnamehash}{7bdade2f177551ee1676919db61b7637}
+      \strng{authorbibnamehash}{7bdade2f177551ee1676919db61b7637}
+      \strng{authornamehash}{7bdade2f177551ee1676919db61b7637}
+      \strng{authorfullhash}{7bdade2f177551ee1676919db61b7637}
+      \strng{authorfullhashraw}{7bdade2f177551ee1676919db61b7637}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{District heating is used in many urban areas in Sweden. Almost always, the district heating utility is owned by the municipality and the municipality naturally encourages proprietors to connect their buildings to the grid, even if they cannot really force them to do so. The building owners are free to choose the best system, i.e. the cheapest one, for their need. Unfortunately, it is not always so easy to find the best solution. Mixed integer linear programming (MLIP) models might here come to help. By such computer programs it is possible to find the absolutely cheapest system of available alternatives, or even combinations among them. This paper shows how to design such a model and further how to closely depict the district heating, and electricity tariff. This is of course very important because the only interface between the proprietor of the building and the utility is found in this bureaucratic instrument. If the tariff is too high the building owners will choose other heating systems than district heating, or even worse, combining district heating with alternative base load sources. In Sweden, this has been of interest because ground-water coupled heat pumps can be profitable, operated by use of the relatively low electricity prices. In this paper we show that dual-fuel, and sometimes even triple-fuel systems, are of interest when the proprietor aims at minimising the cost for space and domestic hot-water heating.}
+      \field{issn}{03787788}
+      \field{journaltitle}{Energy and Buildings}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{9}
+      \field{title}{Optimal heating of large block of flats}
+      \field{urlday}{19}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{1699\bibrangedash 1708}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.enbuild.2008.02.027
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\WBK63CUE\Gustafsson und Rönnqvist - 2008 - Optimal heating of large block of flats.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0378778808000595
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0378778808000595
+      \endverb
+    \endentry
+    \entry{HahnOzisik2012Heatconductionbook}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e84d4800eb652af7704a928643b92845}{%
+           family={Hahn},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4c48792f3e98e0844bdd325fdff48f2c}{%
+           family={Öz{ı}ş{ı}k},
+           familyi={Ö\bibinitperiod},
+           given={M.\bibnamedelimi Necati},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{fullhash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{fullhashraw}{8445aee604d6011251bff0ecbb189e09}
+      \strng{bibnamehash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{authorbibnamehash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{authornamehash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{authorfullhash}{8445aee604d6011251bff0ecbb189e09}
+      \strng{authorfullhashraw}{8445aee604d6011251bff0ecbb189e09}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{978-0-470-90293-6}
+      \field{langid}{english}
+      \field{title}{Heat conduction}
+      \field{year}{2012}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\VKKVX537\Hahn und Özışık - 2012 - Heat conduction.pdf
+      \endverb
+    \endentry
+    \entry{Hinze2005VariationalDiscretizationConceptControlConstrainedOptimizationLinearQuadraticCasejournalArticle}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b93d3facee432e469f24f79fab57d3c}{%
+           family={Hinze},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{fullhash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{fullhashraw}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{bibnamehash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{authorbibnamehash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{authornamehash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{authorfullhash}{3b93d3facee432e469f24f79fab57d3c}
+      \strng{authorfullhashraw}{3b93d3facee432e469f24f79fab57d3c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A new discretization concept for optimal control problems with control constraints is introduced which utilizes for the discretization of the control variable the relation between adjoint state and control. Its key feature is not to discretize the space of admissible controls but to implicitly utilize the first order optimality conditions and the discretization of the state and adjoint equations for the discretization of the control. For discrete controls obtained in this way an optimal error estimate is proved. The application to control of elliptic equations is discussed. Finally it is shown that the new concept is numerically implementable with only slight increase in program management. A numerical test confirms the theoretical investigations.}
+      \field{issn}{0926-6003, 1573-2894}
+      \field{journaltitle}{Computational Optimization and Applications}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{A {{Variational Discretization Concept}} in {{Control Constrained Optimization}}}
+      \field{title}{A {{Variational Discretization Concept}} in {{Control Constrained Optimization}}: {{The Linear-Quadratic Case}}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{30}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 61}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s10589-005-4559-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\EZJUWH3T\Hinze - 2005 - A Variational Discretization Concept in Control Constrained Optimization The Linear-Quadratic Case.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10589-005-4559-5
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10589-005-4559-5
+      \endverb
+    \endentry
+    \entry{HuangSeidelJiaPaschkeBraunig2021EnergyOptimalControlMultivalentBuildingEnergySystemusingMachineLearningconferencePaper}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=1e2b96920b0552662ad2c5b28807b0a2}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Chenzi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a52b2743326984ed0e4e3adccfc9604}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=42b853c3efe8e162f2846e96e9e529e3}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Xuehua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3006752bf675cf6e54ee46cca0dc442c}{%
+           family={Paschke},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9864680b0ab6d4b9d533c1e6b041992e}{%
+           family={Bräunig},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online Streaming, --- Select a Country ---}%
+      }
+      \list{publisher}{1}{%
+        {SCITEPRESS - Science and Technology Publications}%
+      }
+      \strng{namehash}{fbca5fa241b6effbc5d80551fde68d77}
+      \strng{fullhash}{8d3d13f334b94b761141f73df311eb15}
+      \strng{fullhashraw}{8d3d13f334b94b761141f73df311eb15}
+      \strng{bibnamehash}{fbca5fa241b6effbc5d80551fde68d77}
+      \strng{authorbibnamehash}{fbca5fa241b6effbc5d80551fde68d77}
+      \strng{authornamehash}{fbca5fa241b6effbc5d80551fde68d77}
+      \strng{authorfullhash}{8d3d13f334b94b761141f73df311eb15}
+      \strng{authorfullhashraw}{8d3d13f334b94b761141f73df311eb15}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this contribution we develop and analyse intelligent control methods in order to optimise the energy efficiency of a modern residential building with multiple renewable energy sources. Because of alternative energy production options a non-convex mixed-integer optimisation problem arises. For the solution we first apply combined optimisation methods and integrate it into a model predictive controller. In comparison, a reinforcement learning based approach is developed and evaluated in detail. Both methods, in particular reinforcement learning approaches are able to decrease energy consumption and keep thermal comfort at the same time.}
+      \field{booktitle}{Proceedings of the 10th {{International Conference}} on {{Smart Cities}} and {{Green ICT Systems}}}
+      \field{isbn}{978-989-758-512-8}
+      \field{langid}{english}
+      \field{shorttitle}{Energy {{Optimal Control}} of a {{Multivalent Building Energy System}} using {{Machine Learning}}}
+      \field{title}{Energy {{Optimal Control}} of a {{Multivalent Building Energy System}} using {{Machine Learning}}:}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{57\bibrangedash 66}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.5220/0010478500570066
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\KXWFPPZ7\Huang et al. - 2021 - Energy Optimal Control of a Multivalent Building Energy System using Machine Learning.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0010478500570066
+      \endverb
+      \verb{url}
+      \verb https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0010478500570066
+      \endverb
+    \endentry
+    \entry{IncroperaDewittBergmanLavine2007Fundamentalsheatmasstransferbook}{book}{}{}
+      \name{editor}{4}{}{%
+        {{hash=af629011276d698dac3cc48c1342c57b}{%
+           family={Incropera},
+           familyi={I\bibinitperiod},
+           given={Frank\bibnamedelima P.},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=654dc52d997756b4d5c9062f75d0d2f8}{%
+           family={Dewitt},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d8986880ce30c45fc26bf3af70ef1c37}{%
+           family={Bergman},
+           familyi={B\bibinitperiod},
+           given={Theodore\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b22ea78229af4420d0683e5c6d56ef10}{%
+           family={Lavine},
+           familyi={L\bibinitperiod},
+           given={Adrienne\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley}%
+      }
+      \strng{namehash}{141e523274a5e700bf39e52a6cb6d13e}
+      \strng{fullhash}{d47ac392fee25f4d8888bbd83e4e0324}
+      \strng{fullhashraw}{d47ac392fee25f4d8888bbd83e4e0324}
+      \strng{bibnamehash}{141e523274a5e700bf39e52a6cb6d13e}
+      \strng{editorbibnamehash}{141e523274a5e700bf39e52a6cb6d13e}
+      \strng{editornamehash}{141e523274a5e700bf39e52a6cb6d13e}
+      \strng{editorfullhash}{d47ac392fee25f4d8888bbd83e4e0324}
+      \strng{editorfullhashraw}{d47ac392fee25f4d8888bbd83e4e0324}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: ocm62532755}
+      \field{edition}{6th ed}
+      \field{isbn}{978-0-471-45728-2}
+      \field{langid}{english}
+      \field{title}{Fundamentals of heat and mass transfer}
+      \field{year}{2007}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\7RUHWH2A\Incropera et al. - 2007 - Fundamentals of heat and mass transfer.pdf
+      \endverb
+      \keyw{Heat,Mass transfer,Transmission}
+    \endentry
     \entry{Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=ad8766954b5b47869ab08db640bb84b9}{%
@@ -63,6 +762,535 @@
       \verb{url}
       \verb http://www.euroturbo.eu/publications/proceedings-papers/ETC2017-336/
       \endverb
+    \endentry
+    \entry{LewisNithiarasuSeetharamu2004FundamentalsFiniteElementMethodHeatFluidFlowbook}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=d23c5758e615ac92cd5891b6db252d43}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Roland\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=528850b1bb5edcb644646d815b026e46}{%
+           family={Nithiarasu},
+           familyi={N\bibinitperiod},
+           given={Perumal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=afd4d4c75bb4ed2735aa646f5f62a2a5}{%
+           family={Seetharamu},
+           familyi={S\bibinitperiod},
+           given={Kankanhalli\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{fullhash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{fullhashraw}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{bibnamehash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{authorbibnamehash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{authornamehash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{authorfullhash}{ab8499149491ebe0e4a51447e97f875a}
+      \strng{authorfullhashraw}{ab8499149491ebe0e4a51447e97f875a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{978-0-470-84788-6 978-0-470-01416-5}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Fundamentals of the {{Finite Element Method}} for {{Heat}} and {{Fluid Flow}}}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1002/0470014164
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\YZDMLB3D\Lewis et al. - 2004 - Fundamentals of the Finite Element Method for Heat and Fluid Flow.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0470014164
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0470014164
+      \endverb
+    \endentry
+    \entry{Liberzon2012CalculusVariationsOptimalControlTheoryConciseIntroductionbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c31eb151d9042c2fb3e8423c824ac9b7}{%
+           family={Liberzon},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{fullhash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{fullhashraw}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{bibnamehash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{authorbibnamehash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{authornamehash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{authorfullhash}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \strng{authorfullhashraw}{c31eb151d9042c2fb3e8423c824ac9b7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1st ed}
+      \field{isbn}{978-0-691-15187-8 978-1-4008-4264-3}
+      \field{langid}{english}
+      \field{shorttitle}{Calculus of {{Variations}} and {{Optimal Control Theory}}}
+      \field{title}{Calculus of {{Variations}} and {{Optimal Control Theory}}: {{A Concise Introduction}}}
+      \field{year}{2012}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\WPBVE8PF\Liberzon - 2012 - Calculus of Variations and Optimal Control Theory A Concise Introduction.pdf
+      \endverb
+    \endentry
+    \entry{LoosdirekteMethodefuerOptimalsteuerungsproblememitparabolischenDifferentialgleichungenwebpage}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1da7e2e6c0bcc3e9269e1729b1e690a4}{%
+           family={Loos},
+           familyi={L\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{fullhash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{fullhashraw}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{bibnamehash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{authorbibnamehash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{authornamehash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{authorfullhash}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \strng{authorfullhashraw}{1da7e2e6c0bcc3e9269e1729b1e690a4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Eine direkte Methode für Optimalsteuerungsprobleme - Universität Lies mehr über Funktion, Funktionen, Anzahl, Diskretisierung, Ipopt und Differentialgleichungen.}
+      \field{langid}{ngerman}
+      \field{title}{{Eine direkte Methode für Optimalsteuerungsprobleme mit parabolischen Differentialgleichungen}}
+      \field{type}{phdthesis}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\paulschm\\Zotero\\storage\\NZRL927M\\Eine direkte Methode für Optimalsteuerungsprobleme - Universität ....pdf;C\:\\Users\\paulschm\\Zotero\\storage\\7ZT2XWSG\\eine-direkte-methode-fur-optimalsteuerungsprobleme-universitat-.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.yumpu.com/de/document/read/21659314/eine-direkte-methode-fur-optimalsteuerungsprobleme-universitat-
+      \endverb
+      \verb{url}
+      \verb https://www.yumpu.com/de/document/read/21659314/eine-direkte-methode-fur-optimalsteuerungsprobleme-universitat-
+      \endverb
+    \endentry
+    \entry{Luenberger1969OptimizationVectorSpaceMethodsbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e63db14e313af719d905df5e27a59219}{%
+           family={Luenberger},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima Gilbert},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons Inc}%
+      }
+      \strng{namehash}{e63db14e313af719d905df5e27a59219}
+      \strng{fullhash}{e63db14e313af719d905df5e27a59219}
+      \strng{fullhashraw}{e63db14e313af719d905df5e27a59219}
+      \strng{bibnamehash}{e63db14e313af719d905df5e27a59219}
+      \strng{authorbibnamehash}{e63db14e313af719d905df5e27a59219}
+      \strng{authornamehash}{e63db14e313af719d905df5e27a59219}
+      \strng{authorfullhash}{e63db14e313af719d905df5e27a59219}
+      \strng{authorfullhashraw}{e63db14e313af719d905df5e27a59219}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{series}{Professional {{Series}}}
+      \field{title}{Optimization by {{Vector Space Methods}}}
+      \field{year}{1969}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\ACELGTN2\Luenberger - 1969 - Optimization by Vector Space Methods.pdf
+      \endverb
+    \endentry
+    \entry{Mordukhovich2006VariationalAnalysisGeneralizedDifferentiationbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ff303e739cbcf798da5984fb2b77b9f0}{%
+           family={Mordukhovich},
+           familyi={M\bibinitperiod},
+           given={Boris\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{fullhash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{fullhashraw}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{bibnamehash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{authorbibnamehash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{authornamehash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{authorfullhash}{ff303e739cbcf798da5984fb2b77b9f0}
+      \strng{authorfullhashraw}{ff303e739cbcf798da5984fb2b77b9f0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-25437-9 978-3-540-31247-5}
+      \field{langid}{american}
+      \field{series}{Grundlehren der mathematischen {{Wissenschaften}}}
+      \field{title}{Variational {{Analysis}} and {{Generalized Differentiation I}}}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{volume}{330}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/3-540-31247-1
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\DG3E9KDK\Mordukhovich - 2006 - Variational Analysis and Generalized Differentiati.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/3-540-31247-1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/3-540-31247-1
+      \endverb
+      \keyw{Banach and Asplund spaces,full calculus,generalizes differentiation,Lipschitzian stability,optimization,sensitivity analysis,Variational analysis}
+    \endentry
+    \entry{PulsipherZhangHongistoZavala2022UnifyingModelingAbstractionInfiniteDimensionalOptimizationjournalArticle}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3be1c0ddc4281b236f726d36e0ff568f}{%
+           family={Pulsipher},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b03c97712c9a3f7b2b13fb1c99dc4d60}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Weiqi},
+           giveni={W\bibinitperiod}}}%
+        {{hash=992791a33d7820725604b81d108a9da7}{%
+           family={Hongisto},
+           familyi={H\bibinitperiod},
+           given={Tyler\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=97069c5aa2ca7e73b5f887b09412a1b0}{%
+           family={Zavala},
+           familyi={Z\bibinitperiod},
+           given={Victor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa084972083952fdc130414a59affe15}
+      \strng{fullhash}{c1b59816f5fad16c6f4cdf6d0ffc9c73}
+      \strng{fullhashraw}{c1b59816f5fad16c6f4cdf6d0ffc9c73}
+      \strng{bibnamehash}{aa084972083952fdc130414a59affe15}
+      \strng{authorbibnamehash}{aa084972083952fdc130414a59affe15}
+      \strng{authornamehash}{aa084972083952fdc130414a59affe15}
+      \strng{authorfullhash}{c1b59816f5fad16c6f4cdf6d0ffc9c73}
+      \strng{authorfullhashraw}{c1b59816f5fad16c6f4cdf6d0ffc9c73}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Infinite-dimensional optimization (InfiniteOpt) problems involve modeling components (variables, objectives, and constraints) that are functions defined over infinite-dimensional domains. Examples include continuous-time dynamic optimization (time is an infinite domain and components are a function of time), PDE optimization problems (space and time are infinite domains and components are a function of space-time), as well as stochastic and semi-infinite optimization (random space is an infinite domain and components are a function of such random space). InfiniteOpt problems also arise from combinations of these problem classes (e.g., stochastic PDE optimization). Given the infinite-dimensional nature of objectives and constraints, one often needs to define appropriate quantities (measures) to properly pose the problem. Moreover, InfiniteOpt problems often need to be transformed into a finite dimensional representation so that they can be solved numerically. In this work, we present a unifying abstraction that facilitates the modeling, analysis, and solution of InfiniteOpt problems. The proposed abstraction enables a general treatment of infinite-dimensional domains and provides a measure-centric paradigm to handle associated variables, objectives, and constraints. This abstraction allows us to transfer techniques across disciplines and with this identify new, interesting, and useful modeling paradigms (e.g., event constraints and risk measures defined over time domains). Our abstraction serves as the backbone of an intuitive Julia-based modeling package that we call InfiniteOpt.jl. We demonstrate the developments using diverse case studies arising in engineering.}
+      \field{eprintclass}{math}
+      \field{eprinttype}{arXiv}
+      \field{issn}{00981354}
+      \field{journaltitle}{Computers \& Chemical Engineering}
+      \field{month}{1}
+      \field{title}{A {{Unifying Modeling Abstraction}} for {{Infinite-Dimensional Optimization}}}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{156}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{107567}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compchemeng.2021.107567
+      \endverb
+      \verb{eprint}
+      \verb 2106.12689
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\paulschm\\Zotero\\storage\\GWLYFRXV\\Pulsipher et al. - 2022 - A Unifying Modeling Abstraction for Infinite-Dimensional Optimization.pdf;C\:\\Users\\paulschm\\Zotero\\storage\\H3BN6S3I\\2106.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2106.12689
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2106.12689
+      \endverb
+      \keyw{Computer Science - Systems and Control,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control}
+    \endentry
+    \entry{Stengel1994OptimalControlEstimationbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e98a1ed1e6018633e2e9d0313689d9b0}{%
+           family={Stengel},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{fullhash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{fullhashraw}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{bibnamehash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{authorbibnamehash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{authornamehash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{authorfullhash}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \strng{authorfullhashraw}{e98a1ed1e6018633e2e9d0313689d9b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-62198-652-2}
+      \field{title}{Optimal {{Control}} and {{Estimation}}}
+      \field{year}{1994}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\J5BWYP6N\Stengel - 1994 - Optimal Control and Estimation.pdf
+      \endverb
+    \endentry
+    \entry{TabarkiMabrouk2012ModelingEperimentationHeatExchangesRoomHeatedRadiatorjournalArticle}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c24a9315f5b7058125c1cb55cc24034f}{%
+           family={Tabarki},
+           familyi={T\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3a9d262242e1a4b04bb5a23c08179c18}{%
+           family={Mabrouk},
+           familyi={M\bibinitperiod},
+           given={Slah\bibnamedelima Ben},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{fullhash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{fullhashraw}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{bibnamehash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{authorbibnamehash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{authornamehash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{authorfullhash}{7b28eb92436ce1920461440ca67da5f6}
+      \strng{authorfullhashraw}{7b28eb92436ce1920461440ca67da5f6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0887-8722, 1533-6808}
+      \field{journaltitle}{Journal of Thermophysics and Heat Transfer}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Modeling and {{Eperimentation}} of {{Heat Exchanges}} in a {{Room Heated}} by {{Radiator}}}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{26}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{161\bibrangedash 171}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.2514/1.T3696
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\H52BQR5S\Tabarki und Mabrouk - 2012 - Modeling and Eperimentation of Heat Exchanges in a Room Heated by Radiator.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arc.aiaa.org/doi/10.2514/1.T3696
+      \endverb
+      \verb{url}
+      \verb https://arc.aiaa.org/doi/10.2514/1.T3696
+      \endverb
+    \endentry
+    \entry{TrapnesOptimalTemperatureControlRoomsjournalArticle}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f5265003b164e90ec56fe6f71899b34}{%
+           family={Trapnes},
+           familyi={T\bibinitperiod},
+           given={Siri\bibnamedelima Hofstad},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{fullhash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{fullhashraw}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{bibnamehash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{authorbibnamehash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{authornamehash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{authorfullhash}{9f5265003b164e90ec56fe6f71899b34}
+      \strng{authorfullhashraw}{9f5265003b164e90ec56fe6f71899b34}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Optimal {{Temperature Control}} of {{Rooms}}}
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\ZKJD2CEJ\Trapnes - Optimal Temperature Control of Rooms.pdf
+      \endverb
+    \endentry
+    \entry{Troeltzsch2009OptimaleSteuerungpartiellerDifferentialgleichungenTheorieVerfahrenundAnwendungenbook}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9d0f0978dfa98627ce71b62dc4d8c80f}{%
+           family={Tröltzsch},
+           familyi={T\bibinitperiod},
+           given={Fredi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Vieweg+Teubner}%
+      }
+      \strng{namehash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{fullhash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{fullhashraw}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{bibnamehash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{authorbibnamehash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{authornamehash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{authorfullhash}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \strng{authorfullhashraw}{9d0f0978dfa98627ce71b62dc4d8c80f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2., überarbeitete Auflage}
+      \field{isbn}{978-3-8348-0885-1 978-3-8348-9357-4}
+      \field{langid}{ngerman}
+      \field{series}{{SpringerLink Bücher}}
+      \field{shorttitle}{{Optimale Steuerung partieller Differentialgleichungen}}
+      \field{title}{{Optimale Steuerung partieller Differentialgleichungen: Theorie, Verfahren und Anwendungen}}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1007/978-3-8348-9357-4
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\D5JPY9AY\Tröltzsch - 2009 - Optimale Steuerung partieller Differentialgleichungen Theorie, Verfahren und Anwendungen.pdf
+      \endverb
+    \endentry
+    \entry{VanKeulen2014IndirectsolutionoptimalcontrolproblemspurestateconstraintjournalArticle}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=45fbf6e02eded9a959da88785f36a3c7}{%
+           family={Van\bibnamedelima Keulen},
+           familyi={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Thijs},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{fullhash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{fullhashraw}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{bibnamehash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{authorbibnamehash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{authornamehash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{authorfullhash}{45fbf6e02eded9a959da88785f36a3c7}
+      \strng{authorfullhashraw}{45fbf6e02eded9a959da88785f36a3c7}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an algorithm that provides a regularization for the costate dynamics of state constrained optimal control problems with a scalar constraint under the assumption that the Hamiltonian is convex in the control and the state dynamics equation of the constrained state is monotonically increasing in the control variable. The algorithm is demonstrated with a classical optimal control problem.}
+      \field{issn}{14746670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Indirect solution for optimal control problems with a pure state constraint}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{47}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{2456\bibrangedash 2461}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3182/20140824-6-ZA-1003.01626
+      \endverb
+      \verb{file}
+      \verb C:\Users\paulschm\Zotero\storage\5DWHWA9A\Van Keulen - 2014 - Indirect solution for optimal control problems with a pure state constraint.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1474667016419786
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1474667016419786
+      \endverb
+    \endentry
+    \entry{VerdugoBadia2022softwaredesignGridapFiniteElementpackagebasedJuliaJITcompilerjournalArticle}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c763b2408349becf8527b072583f5d76}{%
+           family={Verdugo},
+           familyi={V\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e8a243d078bfdade6791201f05f86214}{%
+           family={Badia},
+           familyi={B\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{fullhash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{fullhashraw}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{bibnamehash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{authorbibnamehash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{authornamehash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{authorfullhash}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \strng{authorfullhashraw}{b2bcb4d5efc8db8199d1d8acf96c22f6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present the software design of Gridap, a novel finite element library written exclusively in the Julia programming language, which is being used by several research groups world-wide to simulate complex physical phenomena such as magnetohydrodynamics, photonics, weather modeling, non-linear solid mechanics, and fluid-structure interaction problems. The library provides a feature-rich set of discretization techniques for the numerical approximation of a wide range of mathematical models governed by Partial Differential Equations (PDEs), including linear, nonlinear, single-field, and multi-field equations. An expressive API allows users to define PDEs in weak form by a syntax close to the mathematical notation. While this is also available in previous frameworks, the main novelty of Gridap is that it implements this API without introducing a domain-specific language plus a compiler of variational forms. Instead, it leverages the Julia just-in-time compiler to build efficient code, specialized for the concrete problem at hand. As a result, there is no need to use different languages for the computational back-end and the user front-end anymore, thus eliminating the so-called two-language problem. Gridap also provides a low-level API that is modular and extensible via the multiple-dispatch paradigm of Julia and provides easy access to the main building blocks of the library if required. The main contribution of this paper is the detailed presentation of the novel software abstractions behind the Gridap design that leverages the new software possibilities provided by the Julia language. The second main contribution of the article is a performance comparison against FEniCS. We measure CPU times needed to assemble discrete systems of linear equations for different problem types and show that the performance of Gridap is comparable to FEniCS, demonstrating that the new software design does not compromise performance. Gridap is freely available at Github (github.com/gridap/Gridap.jl) and distributed under an MIT license. Program summary Program title: Gridap.jl (version 0.16) CPC Library link to program files: https://doi.org/10.17632/mh9vv7hrgf.1 Developer's repository link: https://github.com/gridap/Gridap.jl Licensing provisions: MIT license Programming language: Julia Supplementary material: Source code of the Listings presented in this paper. Each Listing below indicates the name of its corresponding source file. Nature of problem: Computational simulation of a broad range of application problems governed by partial differential equations including linear, nonlinear, single field, and multi-physics problems. Gridap is currently being used by several research groups world-wide to simulate complex physical phenomena such as magnetohydrodynamics, photonics, weather modeling, non-linear solid mechanics, and fluid-structure interaction problems. Solution method: Arbitrary-order grad-, curl-, and div-conforming finite elements on n-cube and n-simplex meshes. Continuous and Discontinuous Galerkin methods. Newton-Raphson linearization. Krylov subspace iterative solvers. Sparse direct solvers.}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{month}{7}
+      \field{shorttitle}{The software design of {{Gridap}}}
+      \field{title}{The software design of {{Gridap}}: {{A Finite Element}} package based on the {{Julia JIT}} compiler}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{276}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{108341}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2022.108341
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\paulschm\\Zotero\\storage\\GAP3RRUV\\Verdugo und Badia - 2022 - The software design of Gridap A Finite Element package based on the Julia JIT compiler.pdf;C\:\\Users\\paulschm\\Zotero\\storage\\AE4QDBUI\\S0010465522000595.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465522000595
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465522000595
+      \endverb
+      \keyw{Finite Elements,Julia programming language,Mathematical software,Partial Differential Equations}
     \endentry
   \enddatalist
 \endrefsection

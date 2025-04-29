@@ -463,5 +463,63 @@
 		\item Pontryagin's maximum principle??? Gives the adjoint of a system like ours, but it might be hard to transform
 	\end{itemize}
 
+	\section{Remarks Henning}
+
+	\cite{TabarkiMabrouk2012ModelingEperimentationHeatExchangesRoomHeatedRadiatorjournalArticle} Introduction/motivation when saying the problem has been studied by others, conclusion when saying what other models can be studied (they study a 3D model with radiation term and consider a Navier-Stokes model)
+
+	Either for the adjoint or the Variation you could state that this is the sensitivity of E with respect to T.
+
+	Heat conduction in room/problem statement and justification: \cite{HahnOzisik2012Heatconductionbook}
+
+	Gridap citing or when talking about software: \cite{BadiaVerdugo2020GridapextensibleFiniteElementtoolboxJuliajournalArticle} \cite{VerdugoBadia2022softwaredesignGridapFiniteElementpackagebasedJuliaJITcompilerjournalArticle}
+
+	Pontryafin's minimum principle, a direct solution method \cite{VanKeulen2014IndirectsolutionoptimalcontrolproblemspurestateconstraintjournalArticle}
+
+	\cite{TrapnesOptimalTemperatureControlRoomsjournalArticle} Introduction/motivation when saying the problem has been studied by others, model, conclusion when talking about other models
+
+	\cite{PulsipherZhangHongistoZavala2022UnifyingModelingAbstractionInfiniteDimensionalOptimizationjournalArticle} other numerical methods
+
+	\cite{LoosdirekteMethodefuerOptimalsteuerungsproblememitparabolischenDifferentialgleichungenwebpage} weak formulation, numerical method (discretisation, semi-discretisation, FE method), when saying that we use a direct method, other methods (IPOPT), Lagrangian
+
+	\cite{LewisNithiarasuSeetharamu2004FundamentalsFiniteElementMethodHeatFluidFlowbook} model (chapter 6), parameters, in conclusion when talking about other models, FE, Lagrangian, Rayleigh-Ritz + Galerkin
+
+	\cite{Jaksch2017ImplementationadjointthermalsolverinverseproblemsconferencePaper} model, Lagrangian, Variation of Lagrangian, numerical method with gradient
+
+	\cite{IncroperaDewittBergmanLavine2007Fundamentalsheatmasstransferbook} model (esp chapter 5), parameters, conclusion other models (include radiation, Stefan-Boltzmann constant)
+
+	\cite{HuangSeidelJiaPaschkeBraunig2021EnergyOptimalControlMultivalentBuildingEnergySystemusingMachineLearningconferencePaper} other numerical method, slightly other model including solar transfer
+
+	\cite{Hinze2005VariationalDiscretizationConceptControlConstrainedOptimizationLinearQuadraticCasejournalArticle} unique solution of quadratic problem, numerical solution has error in O($h^2$) using discretisation and weak form, our gradient method, active set method
+
+	\cite{HahnOzisik2012Heatconductionbook} model, analytical solution
+
+	\cite{GustafssonRonnqvist2008OptimalheatinglargeblockflatsjournalArticle} extended problem for multiple flats, simplex method like
+
+	\cite{GongHinzeZhou2014finiteelementmethodDirichletboundarycontrolproblemsgovernedparabolicPDEspreprint} model, error bound in equation (1.4), weak form, adjoint, regularity of solution, FE
+
+	\cite{GockenbachSchmidtke2009NewtonslawheatingheatequationjournalArticle} model, FE
+
+	\cite{FilipovHristovAvdzhievaFarago2023CoupledPDEODEModelNonlinearTransientHeatTransferConvectionHeatingBoundaryNumericalSolutionImplicitTimeDiscretizationSequentialDecouplingjournalArticle} model + advanced nonlinear model (for conclusion), finite difference method
+
+	\cite{Evans2010Partialdifferentialequationsbook} for everything about PDEs (sobolev spaces, weak formulationheat equation, solution theorem)
+
+	\cite{BiralBertolazziBosetti2016NotesNumericalMethodsSolvingOptimalControlProblemsjournalArticle} model, Pontryagin's minimum principle,, Lagrangian (or here: Hamiltonian), indirect method
+
+	\cite{BauschkeCombettes2017ConvexAnalysisMonotoneOperatorTheoryHilbertSpacesbook} general convex optimisation theory, spaces, projection
+
+	\cite{Alt2016LinearFunctionalAnalysisbook} sobolev spaces, differentiability ... general stuff
+
+	\cite{Mordukhovich2006VariationalAnalysisGeneralizedDifferentiationbook} Variational analysis (weak formulation is good), differentiation in banach spaces, optimisation with variation
+
+	\cite{Luenberger1969OptimizationVectorSpaceMethodsbook} adjoint operator, generalised differentiability, Pontryagin's maximum principle (chap 9.6), semi-discretisised problem (here: solve dynamical systems after that)
+
+	\cite{Troeltzsch2009OptimaleSteuerungpartiellerDifferentialgleichungenTheorieVerfahrenundAnwendungenbook} Tröltzsch ... you know whats in there (this is the german version)
+
+	\cite{Liberzon2012CalculusVariationsOptimalControlTheoryConciseIntroductionbook} variational analysis (weak formulation is good), fundamental theorem of variational analysis, general optimal control, minimum principle
+
+	\cite{LoosdirekteMethodefuerOptimalsteuerungsproblememitparabolischenDifferentialgleichungenwebpage} model, weak formulation, FE, Lagrangian
+
+	\cite{Stengel1994OptimalControlEstimationbook} general problems, Lagrangian, good choices for gamma (page 196 ff.), optimality conditions
+
 	\printbibliography
 \end{document}
